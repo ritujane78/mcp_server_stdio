@@ -39,6 +39,14 @@ npx @modelcontextprotocol/inspector
 
 >  Screenshots demonstrating tool discovery and invocation using MCP Inspector are available.
 
+## Logging
+
+- `SimpleLoggerAdvisor` is enabled to provide **basic logging** for:
+    - Incoming requests
+    - Outgoing responses
+
+This is useful for debugging and understanding MCP interactions.
+
 ## Notes
 
 - Ensure the server is running before connecting via an MCP client or Inspector.
